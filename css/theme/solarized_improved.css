@@ -1,0 +1,41 @@
+@import 'solarized.css';
+
+/* Remove image borders */
+.reveal section img {
+border: 0px;
+box-shadow: 0 0 0 0;
+}
+
+/* Large font */
+ .reveal {
+   font-size: 38px;
+}
+
+/* Smaller table font */
+.reveal table {
+font-size: 65%;
+}
+
+
+/* Don't capitalise titles */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+  margin: 10px;
+}
+
+/* Fade inline over the top */
+
+.reveal .slides section .fragment.fade-out.current-fragment {
+  opacity: 0;
+  display: none;
+}
+
+/* Hide empty list elements */
+.fragment.step-fade-in:not(.visible) {
+  display: none;
+}
