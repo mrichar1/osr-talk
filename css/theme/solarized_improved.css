@@ -39,3 +39,11 @@ font-size: 65%;
 .fragment.step-fade-in:not(.visible) {
   display: none;
 }
+
+.tick {
+  list-style-type: "✔ "
+}
+
+.cross {
+  list-style-type: "✘ "
+}
